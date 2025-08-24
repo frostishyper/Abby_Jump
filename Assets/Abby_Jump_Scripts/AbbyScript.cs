@@ -5,7 +5,7 @@ using UnityEngine;
 public class AbbyScript : MonoBehaviour
 {
     public Rigidbody2D AbbyBody;
-    public float JumpPower = 6;
+    public float JumpPower = 6.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +16,10 @@ public class AbbyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Jump Behavior
         if (Input.GetKeyDown(KeyCode.Space) == true)
         {
-            AbbyBody.velocity = Vector2.up * JumpPower; 
+            AbbyBody.velocity = Vector2.up * JumpPower;
         }
     }
 }
