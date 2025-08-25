@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32cd0cdc6889f8d46ae02847ffd089a7
+guid: 2cc3e6e1ca0071a4994602337576fe5d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Abby_Neutral
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a85a539e70d65a4f94edb0d47b2e8b9
+      internalID: 1030643565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abby_Jump
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f821d3f9765b4a89cffc4572fdbb8
+      internalID: 1498471304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abby_Dead
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90a40ede76fbe747a12e8bd26a27ab6
+      internalID: -14391250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +169,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Abby_Dead: -14391250
+      Abby_Jump: 1498471304
+      Abby_Neutral: 1030643565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
