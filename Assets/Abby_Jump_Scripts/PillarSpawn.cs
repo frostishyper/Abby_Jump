@@ -1,15 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PillarSpawn : MonoBehaviour
 {
+    // Prefab Reference
     public GameObject Pillars;
+
+    // Parameters
     public float SpawnRate = 3;
     private float timer = 0;
     public float HeightOffset = 6; 
 
-    // Start is called before the first frame update
     void Start()
     {   
         // Call Spawn Pillar To Remove First Pillar Spawn Dellay 
@@ -32,7 +32,7 @@ public class PillarSpawn : MonoBehaviour
 
     }
 
-    // Pillar Spawning Behavior
+    // Pillar Spawning Logic
     void SpawnPillar()
     {
         float LowestPoint = transform.position.y - HeightOffset;
